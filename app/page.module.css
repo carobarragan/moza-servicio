@@ -51,12 +51,14 @@
   margin: 1px;
   line-height: 3.15;
   font-size: 3rem;
-  color: #888;
+  color: #555;
 }
 .title:hover {
   color: black;
   text-decoration: underline;
   display: center;
+  opacity: 0.7;
+  text-shadow: -2.5px 2.5px 1px;
 }
 
 .title,
@@ -131,11 +133,16 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 85%;
+  flex: 1 1;
+  display: flex;
 }
 .imagen:hover {
   color: #888;
   text-decoration: underline;
   display: center;
+}
+.imagen {
+  filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
 }
 
 .logo {

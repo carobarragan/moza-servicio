@@ -9,8 +9,8 @@ export default function Intinerario() {
       <div className={styles.card}>
         <h2>Mientras van llegando los invitados</h2>
         <p>
-          van a ver una mesa que tenga los snacks al rededor de 21:30,
-          aproximadamente se mantendra la mesa una hora
+          van a ver una mesa que tenga los snacks al rededor de 21:30, aprox se
+          mantendra la mesa una hora
         </p>
       </div>
       <div className={styles.card}>
@@ -22,7 +22,7 @@ export default function Intinerario() {
       </div>
       <div className={styles.card}>
         <h2>Postre</h2>
-        <p>El postre se servira aproximadamente a la 1:00hs</p>
+        <p>El postre se servira aprox a la 1:00hs</p>
       </div>
       <div className={styles.card}>
         <h2>Mesa dulce</h2>

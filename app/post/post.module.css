@@ -24,21 +24,42 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
 }
+/* @media (max-width: 700px) {
+  .principal {
+    padding: 4rem;
+  }
+} */
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: wheat;
+  color: #444;
+  opacity: 1;
   border-color: #888;
 }
 
-.card h2 {
+.text {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  opacity: 25px;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+/* @keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+} */
+@media (max-width: 700px) {
+  .card {
+    padding: 1rem;
+    width: 90%;
+  }
 }
