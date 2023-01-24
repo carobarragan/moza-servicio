@@ -1,6 +1,8 @@
 .container {
   background-color: #8888;
   display: grid;
+  position: sticky;
+  background-position: inherit;
   list-style: none;
   border: 1px solid #f0f0f0;
   border-radius: 8px;
@@ -13,10 +15,11 @@
 
 .social {
   display: flex;
+
   width: 100%;
   align-items: center;
-  justify-content: center;
-  gap: 6em;
+  justify-content: flex-end;
+  gap: 2em;
   transition: all ease-in-out 1s;
 }
 .text {

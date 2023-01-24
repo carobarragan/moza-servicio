@@ -3,7 +3,7 @@ import styles from "./Fotter.module.css";
 export default function Fotter() {
   return (
     <div className={styles.container}>
-      <div className={styles.linkedin}>
+      <div className={styles.social}>
         <a
           href="https://www.facebook.com/gladys.menozzi?mibextid=ZbWKwL"
           target="_blank"

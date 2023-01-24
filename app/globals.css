@@ -29,11 +29,19 @@ a {
 li {
   display: grid;
   list-style: none;
-  border: 1px solid white;
+  border: 3px solid white;
   border-radius: 16px;
   padding: 16px;
   gap: 32px;
   background-position: center;
+  color: midnightblue;
+}
+.li:hover {
+  color: black;
+  text-decoration: underline;
+  display: center;
+  opacity: 0.7;
+  text-shadow: -2.5px 2.5px 1px;
 }
 ul {
   position: relative;
