@@ -1,0 +1,30 @@
+.container {
+  background-color: #8888;
+  display: grid;
+  list-style: none;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 1px;
+  gap: 1px;
+  background-position: center;
+  width: 220px;
+  height: 110px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 6em;
+  transition: all ease-in-out 1s;
+}
+.text {
+  color: azure;
+  font-display: relative;
+}
+@media (prefers-color-scheme: dark) {
+  .container {
+    filter: invert(1);
+  }
+}
