@@ -49,9 +49,10 @@
 
 .title {
   margin: 1px;
-  line-height: 3.15;
-  font-size: 3rem;
-  color: #555;
+  line-height: 2.15;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration: lightslategrey;
 }
 .title:hover {
   color: black;
@@ -124,8 +125,8 @@
 }
 
 .imagen {
-  margin: 1rem;
-  padding: 1.5rem;
+  margin: 2rem;
+  padding: 0.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
@@ -137,13 +138,14 @@
   display: flex;
 }
 .imagen:hover {
-  color: #888;
+  color: #fafafa;
   text-decoration: underline;
   display: center;
+  box-shadow: #eaeaea;
 }
-.imagen {
+/* .imagen {
   filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-}
+} */
 
 .logo {
   height: 1em;
@@ -165,10 +167,23 @@
   background: rgba(var(--card-rgb), 0.1);
   border: 1px solid rgba(var(--card-border-rgb), 0.15);
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .fotter {
-    padding: 1rem;
-    display: run-in;
-    position: relative;
+    width: 40vw;
+    top: 60%;
+  }
+  .title {
+    width: 0;
+    right: 90%;
+    top: 5%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
